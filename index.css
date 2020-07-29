@@ -1,0 +1,747 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+}
+.wrapper {
+  background-color: #dfdfdf;
+  width: 1000px;
+  height: 1100px;
+  margin: 0px auto;
+}
+.Nav-Bar {
+  background-color: #292929;
+  overflow: hidden;
+}
+.Nav-Bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Down-Bar {
+  background-color: #272727;
+  overflow: hidden;
+}
+.Wireless {
+  position: absolute;
+  left: 1150px;
+  top: 100px;
+  width: 37px;
+  height: 37px;
+  z-index: 139;
+}
+.Twitter {
+  position: absolute;
+  left: 1300px;
+  top: 100px;
+  width: 37px;
+  height: 37px;
+  z-index: 147;
+}
+.Blueprint {
+  font-size: 40px;
+  font-family: "Lobster1.3";
+  color: rgb(87, 133, 173);
+  line-height: 0.449;
+  text-align: left;
+  position: absolute;
+  left: 500px;
+  top: 103px;
+  z-index: 123;
+}
+.Wordpress {
+  font-size: 14px;
+  font-family: "Georgia";
+  color: rgb(87, 133, 173);
+  font-style: italic;
+  line-height: 1.282;
+  text-align: left;
+  position: absolute;
+  left: 770px;
+  top: 125.126px;
+  z-index: 124;
+}
+.Nav-Bar {
+  height: 50px;
+}
+.Down-Bar {
+  height: 150px;
+}
+.Down-Bar p {
+  font-size: 12px;
+  font-family: "Georgia";
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 486.892px;
+  top: 177px;
+  width: 132px;
+  height: 145px;
+  z-index: 11;
+}
+.Menu {
+  border-radius: 7px;
+  position: absolute;
+  left: 479px;
+  top: 175px;
+  width: 950px;
+  height: 50px;
+  z-index: 136;
+  text-decoration: none;
+  background-color: #f2f2f2;
+}
+.Entertainment {
+  font-size: 15px;
+  font-family: "Georgia";
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 656.892px;
+  top: 10px;
+  text-decoration: none;
+  width: 132px;
+  height: 145px;
+  z-index: 11;
+  color: #464646;
+}
+.Social_Media {
+  font-size: 15px;
+  font-family: "Georgia";
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 516.892px;
+  text-decoration: none;
+  top: 10px;
+  width: 132px;
+  height: 145px;
+  z-index: 11;
+  color: #464646;
+}
+.Freebies {
+  font-size: 15px;
+  font-family: "Georgia";
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 400.892px;
+  text-decoration: none;
+  top: 10px;
+  width: 132px;
+  height: 145px;
+  z-index: 11;
+  color: #464646;
+}
+.Interview {
+  font-size: 15px;
+  font-family: "Georgia";
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 290.892px;
+  text-decoration: none;
+  top: 10px;
+  width: 132px;
+  height: 145px;
+  z-index: 11;
+  color: #464646;
+}
+.Webdesign {
+  font-size: 15px;
+  font-family: "Georgia";
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  text-decoration: none;
+  left: 152.892px;
+  top: 10px;
+  width: 132px;
+  height: 145px;
+  z-index: 11;
+  color: #464646;
+}
+.Technology {
+  font-size: 15px;
+  font-family: "Georgia";
+  line-height: 1.8323;
+  text-align: left;
+  text-decoration: none;
+  position: absolute;
+  left: 20.892px;
+  top: 10px;
+  width: 132px;
+  height: 149px;
+  color: #464646;
+}
+
+.Subscribes1 {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: #c2c2c2;
+  font-style: italic;
+  line-height: 1.496;
+  text-align: left;
+  position: absolute;
+  left: 1200px;
+  top: 100px;
+  width: 56px;
+  height: 10px;
+  z-index: 145;
+}
+
+.Followers1 {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: #c2c2c2;
+  font-style: italic;
+  line-height: 1.496;
+  text-align: left;
+  position: absolute;
+  left: 1345px;
+  top: 100px;
+  width: 56px;
+  height: 10px;
+  z-index: 145;
+}
+
+.Numberone {
+  font-size: 20px;
+  font-family: "Arial";
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  left: 1200px;
+  top: 75px;
+}
+
+.Numbertwo {
+  font-size: 20px;
+  font-family: "Arial";
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  left: 1350px;
+  top: 75px;
+}
+.Down-Bar2 {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 500px;
+}
+.Column1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 80px;
+  padding: 0px;
+  background-color: #dfdfdf;
+  width: 200px;
+}
+.Column2 {
+  display: grid;
+  background-color: ;
+}
+
+.Iphone {
+  margin-top: 30px;
+}
+.Secondiphone {
+  border-radius: 7px;
+  width: 511px;
+  height: 220px;
+}
+
+#Date {
+  position: absolute;
+  left: 798px;
+  top: 593px;
+}
+#July_14th_2010 {
+  padding-top: 24px;
+  padding-left: 179px;
+  font-size: 11px;
+  font-family: "Georgia";
+  color: rgb(92, 92, 92);
+}
+#Lapsi {
+  position: absolute;
+  left: 699px;
+  top: 590px;
+}
+#Technologysmall {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(36, 124, 165);
+  font-style: italic;
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 790px;
+  top: 580px;
+}
+
+#Adminlogo {
+  position: absolute;
+  left: 715px;
+  top: 600px;
+  width: 10px;
+  height: 8px;
+  z-index: 50;
+}
+
+#Admintext {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(36, 124, 165);
+  font-style: italic;
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 729px;
+  top: 581px;
+  z-index: 49;
+}
+
+#Datee {
+  left: 120px;
+  padding-top: 15px;
+  position: absolute;
+  top: 10px;
+}
+#July_14th_20100 {
+  padding-top: 15px;
+  padding-left: 194px;
+  font-size: 11px;
+  font-family: "Georgia";
+  color: rgb(92, 92, 92);
+}
+#Lapsii {
+  top: 22px;
+  position: absolute;
+  left: 15px;
+}
+#Technologysmalll {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(36, 124, 165);
+  font-style: italic;
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 104px;
+  top: 13px;
+}
+
+#Adminlogoo {
+  position: absolute;
+  left: 25px;
+  top: 31px;
+  width: 10px;
+  height: 8px;
+  z-index: 50;
+}
+
+#Admintextt {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(36, 124, 165);
+  font-style: italic;
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 39px;
+  top: 12px;
+  z-index: 49;
+}
+.iphone2 {
+  border-radius: 7px;
+  position: absolute;
+  left: 720px;
+  top: 620px;
+  width: 159px;
+  height: 159px;
+  z-index: 46;
+}
+
+.Secondiphone {
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+.Textinside {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: #5b5b5b;
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 900px;
+  top: 620px;
+  width: 289px;
+  height: 101px;
+}
+.Iphone4great {
+  font-size: 24px;
+  font-family: "Georgia";
+  color: #464646;
+  line-height: 0.917;
+  text-align: left;
+  position: absolute;
+  width: 500px;
+  font-size: 20px;
+  line-height: 0.917;
+  text-align: left;
+  position: absolute;
+  left: 715px;
+  top: 555px;
+  z-index: 25;
+}
+.AboutBlueprint p {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: #5b5b5b;
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 40.892px;
+  top: 20.843px;
+  width: 132px;
+  height: 145px;
+  z-index: 11;
+}
+
+.Categoriestext h2 {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #5b5b5b;
+  font-weight: bold;
+  width: 200px;
+  padding-left: 41px;
+  top: 245.965px;
+  z-index: 12;
+}
+.Categoriestext {
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 21px;
+  position: absolute;
+  left: 486px;
+  top: 470px;
+  width: 200px;
+  height: 190px;
+  z-index: 17;
+  border-radius: 7px;
+}
+.Categoriestext a {
+  padding-top: 20px;
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(87, 133, 173);
+  font-weight: bold;
+  text-align: left;
+  left: 486px;
+  top: 500px;
+  width: 20px;
+  height: 20px;
+  z-index: 17;
+}
+.Archives {
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(87, 133, 173);
+  line-height: 21px;
+  position: absolute;
+  left: 486px;
+  top: 680px;
+  width: 200px;
+  height: 190px;
+  z-index: 17;
+  border-radius: 7px;
+}
+.Archives h2 {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #5b5b5b;
+  font-weight: bold;
+  width: 200px;
+  padding-left: 41px;
+  top: 245.965px;
+  z-index: 12;
+}
+
+.AboutBlueprint {
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Georgia";
+  color: #5b5b5b;
+  line-height: 21px;
+  position: absolute;
+  left: 486px;
+  top: 246px;
+  width: 200px;
+  height: 200px;
+  z-index: 17;
+}
+.AboutBlueprint h2 {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #5b5b5b;
+  font-weight: bold;
+  width: 200px;
+  padding-left: 41px;
+  top: 245.965px;
+  z-index: 12;
+}
+
+.Rightsideback {
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Georgia";
+  line-height: 21px;
+  position: absolute;
+  left: 1217px;
+  top: 290px;
+  width: 225px;
+  height: 345px;
+  z-index: 17;
+}
+
+.Search {
+  font-style: italic;
+  border-radius: 7px;
+  position: absolute;
+  left: 1215px;
+  top: 233px;
+  width: 220px;
+  height: 30px;
+  background-color: #e6e6e6;
+  border: 1px solid #e6e6e6;
+}
+
+#icon {
+  position: absolute;
+  left: 1402px;
+  top: 243px;
+  width: 19px;
+  height: 19px;
+  z-index: 114;
+}
+
+#Oursponsors {
+  font-size: 14px;
+  font-family: "Arial";
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  left: 30px;
+  width: 200px;
+  color: #464646;
+}
+.designphoto {
+  position: absolute;
+  left: 10px;
+  top: 45px;
+  width: 200px;
+  height: 125px;
+  z-index: 107;
+}
+.Buildamazingmobileapps {
+  position: absolute;
+  left: 10px;
+  top: 195px;
+  width: 200px;
+  height: 125px;
+  z-index: 108;
+}
+.secondTwwiter {
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Georgia";
+  line-height: 21px;
+  position: absolute;
+  left: 1217px;
+  top: 660px;
+  width: 225px;
+  height: 275px;
+  z-index: 17;
+}
+.Twwitertext {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: black;
+  text-align: left;
+  position: absolute;
+  left: 1217px;
+  width: 196px;
+  height: 35px;
+}
+.lastphoto {
+  border-radius: 7px;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: "Georgia";
+  line-height: 21px;
+  position: absolute;
+  left: 696px;
+  top: 800px;
+  width: 511px;
+  height: 215px;
+  z-index: 17;
+}
+#Characterillustrion {
+  font-size: 20px;
+  font-family: "Georgia";
+  color: #464646;
+  line-height: 0.917;
+  text-align: left;
+  position: absolute;
+  left: 27px;
+  bottom: 173px;
+  width: 511px;
+}
+.Character {
+  border-radius: 3px;
+  position: absolute;
+  left: 25px;
+  top: 49px;
+  width: 159px;
+  height: 159px;
+  z-index: 71;
+}
+
+#Mybuttonn2 {
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: "LucidaGrande";
+  line-height: 20px;
+  text-align: left;
+  position: absolute;
+  left: 900px;
+  top: 750px;
+  border: none;
+}
+#Mybuttonn1 {
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: "LucidaGrande";
+  line-height: 20px;
+  text-align: left;
+  position: absolute;
+  left: 1px;
+  top: 120px;
+  border: none;
+}
+.Buildtext {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: #5b5b5b;
+  text-align: left;
+  position: absolute;
+  left: 200px;
+  top: 35px;
+  width: 289px;
+  height: 101px;
+}
+.smalltwitter {
+  position: absolute;
+  left: 22px;
+  top: 21px;
+  width: 16px;
+  height: 16px;
+  z-index: 95;
+}
+.FromTwwiter {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(87, 133, 173);
+  font-weight: bold;
+  line-height: 1.282;
+  text-align: left;
+  position: absolute;
+  left: 50px;
+  top: 1px;
+  z-index: 103;
+}
+.Text1 {
+  font-size: 12px;
+  font-family: "Georgia";
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  width: 196px;
+  height: 35px;
+  z-index: 97;
+}
+.Text2 {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: black;
+  line-height: 1.833;
+  position: absolute;
+  left: 10px;
+  top: 120px;
+  width: 196px;
+}
+.Text3 {
+  font-size: 12px;
+  font-family: "Georgia";
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  top: 190px;
+  width: 196px;
+  height: 35px;
+}
+.Time1 {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(87, 133, 173);
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  top: 90px;
+  width: 67px;
+  height: 13px;
+  z-index: 98;
+}
+.Time2 {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(87, 133, 173);
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  top: 165px;
+  width: 67px;
+  height: 13px;
+  z-index: 98;
+}
+.Time3 {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(87, 133, 173);
+  line-height: 1.833;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  top: 235px;
+  width: 67px;
+  height: 13px;
+  z-index: 98;
+}
