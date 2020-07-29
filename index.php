@@ -28,9 +28,9 @@ session_start();
             <a href="Register.php" target="_blank">Register</a>';
           }
 
-          if($_SESSION['userId'] == 3){
+          if($_SESSION['userId'] == 11){
             echo ' <a href="admin.php">Admin</a>';
-            echo ' <a href="logout.php">Log out</a>';
+            echo ' <a href="logout.php" target=_blank">Log out</a>';
         }else{
 
         }
