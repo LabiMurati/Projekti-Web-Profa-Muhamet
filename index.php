@@ -18,6 +18,8 @@ session_start();
             <a href="contact.php" target="_blank">Contact</a>
             <a href="Findus.php" target="_blank">About</a>
             <a href="Login.php" target="_blank">Log in</a>
+            <a href="Aboutus.php" target="_blank">About Us</a>
+            <a href="Findus.php" targer="_blank">Find Us</a>
             <a href="Register.php" target="_blank">Register</a>
             <?php 
               if(isset( $_SESSION['userId'] )){
